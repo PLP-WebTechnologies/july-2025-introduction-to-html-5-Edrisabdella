@@ -1,35 +1,54 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jecSxI3G)
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A beginner-friendly HTML5 webpage demonstrating semantic structure, accessibility, and SEO best practices." />
+  <meta name="author" content="Edris Abdella" />
+  <title>Introduction to HTML5</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Edris HTML5 Learning Page</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-## Overview
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page demonstrates a basic and modern semantic HTML5 structure. It includes accessible markup and SEO-friendly content designed for beginners learning web development.</p>
+    </section>
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
-
-## Objective
-
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
-
-## Guidelines
-
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
-
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
-
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
-
-## Deliverables
-
-A single HTML file named `index.html`. It should include:
-
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
-
-## Tips
-
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
-
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <article>
+        <h3>Semantic Elements</h3>
+        <p>We use tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> for clarity and meaning.</p>
+      </article>
+      <article>
+        <h3>Accessibility</h3>
+        <p>Navigation is enhanced with ARIA labels and proper heading structure to support screen readers.</p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>We include meta tags for description and use descriptive headings and text to improve search visibility.</p>
+      </article>
+    </section>
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>If you have any questions, feel free to reach out via email at <a href="mailto:edrisabdella178@gmail.com">edrisabdella178@gmail.com</a>.</p>
+      <p>Phone number: <a href="tel:+251905131051">+251905131051</a></p>
+      <address>Dire Dawa, Ethiopia</address>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Edris Abdella. All rights reserved.</p>
+  </footer>
+</body>
+</html>
